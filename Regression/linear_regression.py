@@ -33,6 +33,7 @@ print(reg.coef_) # Theta value
 a =  reg.predict(x_test)
 print(a) # predicted output
 
+
 # Mean square error
 
 error = np.mean((a - y_test)**2)
