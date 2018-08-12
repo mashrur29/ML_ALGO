@@ -86,6 +86,8 @@ X_test = scale(cars_data_test)
 y_pred = LogReg.predict(X)  # Here I used X as i wanted to know the error from report by comparison
                             # Use X_test for a test file
 
+
+print(LogReg.coef_) # prints the Theta value
 print(classification_report(y, y_pred)) # length(y_pred) = length(y)
 
 
