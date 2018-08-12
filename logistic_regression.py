@@ -42,6 +42,7 @@ sb.regplot(x='drat', y='carb', data=cars, scatter=True)
 # Checking Independence between features, if spearman coefficient is low then less co-related
 
 drat = cars['drat']
+
 carb = cars['carb']
 
 spearmanr_coefficient, p_value = spearmanr(drat, carb)
